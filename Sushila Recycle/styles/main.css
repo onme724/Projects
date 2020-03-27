@@ -1,0 +1,25 @@
+.nav-a-main {
+}
+
+.nav-a-main nav li a {
+  font-size: 20px;
+  font-weight: bold;
+}
+#mobile-sidenavbar li a {
+  color: white;
+}
+
+.first-face .taglines .title {
+  font-size: 30px;
+  color: red;
+}
+
+.buys .title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buys-img-carousel img{
+  margin: 1px;
+}
