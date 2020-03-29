@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushila Recycle</title>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+      header,
+      main,
+      footer {
+        padding-left: 300px;
+      }
+      .dnone {
+        display: none;
+      }
+      .p1 {
+        padding: 5px;
+      }
+      .machines-img-carousel div {
+        margin: 10px;
+      }
+      .machines-img-carousel div img {
+        border: 1px solid;
+      }
+      .sidenav li a {
+        color: white;
+      }
+      @media only screen and (max-width: 992px) {
+        header,
+        main,
+        footer {
+          padding-left: 0;
+        }
+      }
+    </style>
+    <div class="" id="home"></div>
+    <!-- Navbar -->
+    <div class=" ">
+      <div class="navbar-fixed">
+        <nav class="teal">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down">
+              <li class="active"><a href="#home">HOME</a></li>
+              <li><a href="#buys">BUYS</a></li>
+              <li><a href="#productsAndSellings">PRODUCTS AND SELLINGS</a></li>
+              <li><a href="#gallery">GALLERY</a></li>
+              <li><a href="#eventsAndProgram">EVENTS AND PROGRAM</a></li>
+              <li><a href="#donations">DONATIONS</a></li>
+              <li><a href="#aboutUs">ABOUT US</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <ul class="sidenav teal white-text" id="mobile-demo">
+        <li class="active"><a href="#home">HOME</a></li>
+        <li><a href="#buys">BUYS</a></li>
+        <li><a href="#productsAndSellings">PRODUCTS AND SELLINGS</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#eventsAndProgram">EVENTS AND PROGRAM</a></li>
+        <li><a href="#donations">DONATIONS</a></li>
+        <li><a href="#aboutUs">ABOUT US</a></li>
+      </ul>
+    </div>
+    <!-- Navbar Ends -->
+    <!-- home -->
+    <div class="">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="col s12 m7 offset-m3 ">
+            <img
+              src="./assets/logo.gif"
+              class="responsive-img"
+              width=""
+              alt=""
+              srcset=""
+            />
+
+            <div class="">
+              <h4>Everyone is a recycler</h4>
+              <p>
+                You can start or join one of these Precious Plastic spaces in
+                your house, office, town and start tackling the plastic waste
+                problem. Right now!
+              </p>
+            </div>
+
+            <div class="">
+              <h4>Become a Recycler</h4>
+              <p>Start a precious plastic business</p>
+              <button class="btn waves-effect">Start</button>
+            </div>
+          </div>
+        </div>
+        <!-- Order form -->
+        <div class="col s12 m6">
+          <h3
+            class="p3"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            Pick Order
+          </h3>
+          <div class="input-field">
+            <i class="material-icons prefix">account_circle</i>
+            <input
+              placeholder="Sandesh Shah"
+              id=""
+              type="text"
+              class="validate"
+            />
+            <label for="first_name">Full Name</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">date_range</i>
+            <input
+              placeholder="Mar 17, 2020"
+              id=""
+              type="text"
+              class="datepicker"
+              class="validate"
+            />
+            <label for="first_name">Pick Date</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">timer</i>
+            <input
+              placeholder="10:00 am - 04:00 pm"
+              id=""
+              type="text"
+              class=""
+              class="validate"
+            />
+            <label for="first_name">Pick Time</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">edit_location</i>
+            <input
+              placeholder="pokhara"
+              id=""
+              type="text"
+              class=""
+              class="validate"
+            />
+            <label for="first_name">Location</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">phone</i>
+            <input
+              placeholder="9854676512"
+              id=""
+              type="text"
+              class=""
+              class="validate"
+            />
+            <label for="first_name">Contact no.</label>
+          </div>
+          <div class="input-field">
+            <button class="btn green darken-3 bold">
+              <span>Submit</span>
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- founders -->
+    <div class="" id="founders">
+      <div class="row">
+        <div class="col s12 m6 offset-m1 grey">
+          <div class="col s12 m5 center">
+            <img
+              class="circle"
+              src="https://randomuser.me/api/portraits/men/21.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col s12 m7">
+            <h4>Hemanta Shrestha</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+              similique repellendus nam dolorem aspernatur dicta illo quaerat
+              placeat aliquam, omnis veritatis quae! Odit beatae perferendis
+              debitis accusantium ratione, molestias tempore!
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m6 offset-m5 grey">
+          <div class="col s12 m5 center hide-on-med-and-up">
+            <img
+              class="circle"
+              src="https://randomuser.me/api/portraits/men/21.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col s12 m7">
+            <h4>Hemanta Shrestha</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+              similique repellendus nam dolorem aspernatur dicta illo quaerat
+              placeat aliquam, omnis veritatis quae! Odit beatae perferendis
+              debitis accusantium ratione, molestias tempore!
+            </p>
+          </div>
+          <div class="col s12 m5 center hide-on-small-only">
+            <img
+              class="circle"
+              src="https://randomuser.me/api/portraits/men/21.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="" id="buys" style="height: 50px;"></div>
+    <!-- Buys -->
+    <div class="buys" id="">
+      <h3 class="center">What We Buy and Use ?</h3>
+      <p class="center">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi unde
+        dolorem ipsam iusto obcaecati! Nostrum illo ipsam eligendi quo provident
+        molestias, aperiam tenetur culpa at, tempore officiis nihil quod libero?
+      </p>
+
+      <div class="row">
+        <div class="col s6 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                style="height: 200px;"
+                class="activator"
+                src="https://images.unsplash.com/photo-1498644035638-2c3357894b10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >News Papers<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#" class="activator">more ..</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >News Papers<i class="material-icons right">close</i></span
+              >
+              <p>
+                Here is some more information about this product that is only
+                revealed once clicked on.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                style="height: 200px;"
+                class="activator"
+                src="https://images.unsplash.com/photo-1498644035638-2c3357894b10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >News Papers<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">more ..</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >News Papers<i class="material-icons right">close</i></span
+              >
+              <p>
+                Here is some more information about this product that is only
+                revealed once clicked on.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                style="height: 200px;"
+                class="activator"
+                src="https://images.unsplash.com/photo-1498644035638-2c3357894b10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >News Papers<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">more ..</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >News Papers<i class="material-icons right">close</i></span
+              >
+              <p>
+                Here is some more information about this product that is only
+                revealed once clicked on.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                style="height: 200px;"
+                class="activator"
+                src="https://images.unsplash.com/photo-1498644035638-2c3357894b10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >News Papers<i class="material-icons right">more_vert</i></span
+              >
+              <p><a href="#">more ..</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >News Papers<i class="material-icons right">close</i></span
+              >
+              <p>
+                Here is some more information about this product that is only
+                revealed once clicked on.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Products and Sellings -->
+    <div class="" id="productsAndSellings" style="height: 50px;"></div>
+    <div class="divider"></div>
+    <div class="" id=""></div>
+    <!-- GAllery -->
+
+    <div class="" id="gallery" style="height: 50px;"></div>
+    <div class=" " id="">
+      <h3 class="center">Gallery</h3>
+      <div class="" style="background-color: rgba(22, 67, 218, 0.2);">
+        <h5>Our Machines</h5>
+        <div class="container ">
+          <div class="machines-img-carousel">
+            <div class="" style="">
+              <img
+                src="https://www.bezner.com/wp-content/uploads/2017/07/PET-Recycling-Plant-2-580x330.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <img
+                src="https://www.bezner.com/wp-content/uploads/2017/07/waste-sorting-line-PET-processing-580x330.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <img
+                src="https://www.bezner.com/wp-content/uploads/2017/07/plastic-recycling-plant-580x330.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <img
+                src="https://www.bezner.com/wp-content/uploads/2017/07/PET-Recycling-Plant-screen-sorting-cabin-580x330.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <img
+                src="https://www.bezner.com/wp-content/uploads/2017/07/PET-Recycling-Plant-belt-conveyor-waste-processing-580x330.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Events and Program -->
+    
+    <div class="" id="eventsAndProgram" style="height: 50px;"></div>
+    <div class="divider"></div>
+    <div class="">
+      <h3 class="center">Our Events and Program</h3>
+      <h5 class="center">
+        We conduct various kinds of events from cleaning the streets to the
+        distribution of foods and money to the people.
+      </h5>
+      <div class="row">
+        <div class="col s12 m4 offset-m1">
+          <div class="card-panel green lighten-3">
+            <h4>Feb 14, 2020</h4>
+            <p style="font-weight: bold;">
+              Event: Conducted street cleaning around krishna mandir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Donations -->
+    <div class="" id="donations" style="height: 50px;"></div>
+    <div class="divider"></div>
+    <div class="" id="donations">
+      <h3 class="center">Donations</h3>
+      <h5 class="center">
+        All the donations that are donated in our organization will be used for
+        making new products and all the profits will be given to the needly
+        people. It can be ashram or .. and other organizations that are running
+        for the development of the country and helping the needly people.
+      </h5>
+      <div class="row center">
+        <div
+          class="col s12 m3  card offset-m1"
+          style="height: 200px; display: flex;flex-direction: column; justify-content: space-between;"
+        >
+          <h4>Give Daily</h4>
+          <p>
+            We will reach to your Location daily to collect the donation.
+          </p>
+          <button class="btn">Register</button>
+        </div>
+        <div
+          class="col s12 m4 card"
+          style="height: 200px; display: flex;flex-direction: column; justify-content: space-between;"
+        >
+          <h4>Give Weekly</h4>
+          <p>
+            Our Truck will come to your Location in day and time you choose.
+          </p>
+          <button class="btn">Register</button>
+        </div>
+        <div
+          class="col s12 m3 card"
+          style="height: 200px; display: flex;flex-direction: column; justify-content: space-between;"
+        >
+          <h4>Give Monthly</h4>
+          <p>
+            Choose your month, we will arrive when you call or at registered
+            time.
+          </p>
+          <button class="btn">Register</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="green" style="height: 50px;"></div>
+    <!-- About Us -->
+
+    <div class="" id="aboutUs">
+      <div class="parallax-container" style="height: 200px;">
+        <div class="parallax">
+          <img
+            src="https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+          />
+        </div>
+        <div
+          class="white-text"
+          style="position: absolute;width: 10%; height: 100%; background-color: rgba(0,0,0,0.5); justify-content: flex-start; display: flex;"
+        >
+          <div class="">logo</div>
+          <div class="">
+            <div class="" style="display: flex;flex-direction: column;">
+              <h4>Site Links</h4>
+              <a href="">Buys</a>
+              <a href="">Buys</a>
+              <a href="">Buys</a>
+            </div>
+            <div class=""></div>
+            <div class=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- Jquery cdn link -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"
+></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- AOS cdn-->
+<script
+  type="text/javascript"
+  src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+
+<script>
+  $(document).ready(function() {
+    $(".sidenav").sidenav();
+    $(".parallax").parallax();
+
+    $(".machines-img-carousel").slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      centerPadding: "50px",
+      focusOnSelect: false,
+      variableWidth: true,
+      focusOnChange: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+  });
+</script>
