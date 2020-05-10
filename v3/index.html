@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- timeline css -->
+    <link rel="stylesheet" href="./assets/css/timeline.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="./assets/css/lightbox.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.css">
+    <!-- title -->
+    <title>Sushila</title>
+    <style>
+        .pad0 {
+            padding: 0;
+        }
+
+        .margin0 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        .nav-wrapper .table-of-contents a {
+            color: wheat;
+            font-weight: bold;
+            line-height: inherit;
+            height: inherit;
+            transition: 0s;
+
+        }
+
+        .nav-wrapper .table-of-contents a.active {
+            color: white;
+            border-left: 2px solid transparent;
+            font-weight: bold;
+            transition: .1s;
+            background-color: rgb(0, 100, 100);
+
+        }
+
+        .nav-wrapper .table-of-contents a:hover {
+            border-color: transparent;
+            color: white;
+            background-color: rgb(0, 128, 128);
+        }
+
+        .table-of-contents li {
+            padding: 0;
+        }
+    </style>
+    <!-- navbar -->
+    <div class="">
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper teal">
+                    <a href="#!" class="brand-logo">Logo</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down table-of-contents">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#we_buy">We Buy?</a></li>
+                        <li><a href="#how_to_steps">How to steps?</a></li>
+                        <li><a href="#our_products">Our Productions</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#donations">Donations</a></li>
+                        <li><a href="#about_us">About us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav white-text" id="mobile-demo">
+            <li><a href="" style="display: flex;justify-content: flex-start;align-items: center;"><span
+                        class="material-icons" style="padding:0 10px 0 0px;">keyboard_backspace</span> Home</a></li>
+            <li><a href="#we_buy">We Buy?</a></li>
+            <li><a href="#how_to_steps">How to steps?</a></li>
+            <li><a href="#our_products">Our Productions</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#donations">Donations</a></li>
+            <li><a href="#about_us">About us</a></li>
+        </ul>
+    </div>
+
+    <!-- pages -->
+
+    <div class="pages" style="padding-top: 30px;">
+        <div class="scrollspy " id="home">
+            <div class="row">
+                <div class="col s12 m12 l6">
+                    <div class="row">
+                        <div class="col s12 m10 offset-m1">
+                            <div class="card-panel">
+                                <h4>Everyone is a recycler</h4>
+                                <p>
+                                    You can start or join one of these Precious Plastic spaces in
+                                    your house, office, town and start tackling the plastic waste
+                                    problem. Right now!
+                                </p>
+                                <h4>Become a Recycler</h4>
+                                <p>Start a precious plastic business</p>
+                                <button class="btn waves-effect">Start</button>
+                            </div>
+                            <div class="card-panel">
+                                <p>Sushila is a social enterprise Eliminating the Idea of Waste®. In 20 countries,
+                                    we tackle
+                                    the issue from many angles. We have found that nearly everything we touch can be
+                                    recycled
+                                    and collect typically non-recyclable items through national, first-of-their-kind
+                                    recycling
+                                    platforms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l6">
+                    <div class="row">
+                        <div class="col s12 m8 offset-m1">
+                            <div class="row">
+                                <div class="input-field col s12 pad0 margin0">
+                                    <h3>Register here</h3>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="input-field col s12   pad0 margin0">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="fullname" type="text" class="validate">
+                                    <label for="fullname">Full Name</label>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="input-field col s12   pad0 margin0">
+                                    <i class="material-icons prefix">date_range</i>
+                                    <input id="date" type="text" class="validate datepicker">
+                                    <label for="date">Pick up date</label>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="input-field col s12  pad0 margin0">
+                                    <i class="material-icons prefix">access_alarm</i>
+                                    <input id="time" type="text" class="validate timepicker">
+                                    <label for="time">Pick up time</label>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="input-field col s12   pad0 margin0">
+                                    <i class="material-icons prefix">location_on</i>
+                                    <input id="location" type="text" class="validate">
+                                    <label for="location"> Location</label>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="input-field col s12   pad0 margin0">
+                                    <i class="material-icons prefix">call</i>
+                                    <input id="phNum" type="text" value="" class="validate">
+                                    <label for="phNum">Phone number</label>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="input-field col s12   pad0 margin0">
+                                    <button class="btn waves-effect waves-light btn-small" type="submit" name="action"
+                                        id="order_submit">Submit
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="scrollspy" id="we_buy">
+            <div class="row">
+                <div class="col s12 m10 offset-m1">
+                    <div class="center" style="margin:auto 20px;">
+                        <h4>We Buy and Sell Recyclable Materials</h4>
+                        <p>Our company buys and sells a variety of recyclable waste. <br> We buys various recyclable
+                            materials
+                            from manufacturers, wholesalers, publishers, offices, houses and other recyclers. If you
+                            don’t
+                            see what you have or want below contact us, because we like solving problems. If you have
+                            it, we
+                            might buy it. If we can find it, we’ll sell it.</p>
+                    </div>
+                    <div class="card-panel">
+                        <div class="row">
+                            <div class="col s12 m6 l4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img height="280px"
+                                            src="https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+                                        <span class="card-title"
+                                            style="font-weight:bold;border-top-right-radius: 60px;background: rgba(0,128,128,.7);">Papers</span>
+                                    </div>
+                                    <div class="card-content" id="">
+                                        <p>Cardboard, Newspapers, Junk Mail, Kraft Rolls, Office Paper, Paper
+                                            decorations, School and colleges papers, Mixed Papers,
+                                            Magazines, Hard and Soft Books and copies, Cartons etc.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img height="280px"
+                                            src="https://images.unsplash.com/photo-1572964734607-0051976fac79?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+                                        <span class="card-title "
+                                            style="font-weight:bold;border-top-right-radius: 60px;background: rgba(0,128,128,.7);">Plastics</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Polyethylene Terephthalate (PET or PETE or Polyester), High-Density
+                                            Polyethylene (HDPE), Low-Density Polyethylene (LDPE), High-Density
+                                            Polyethylene (HDPE), Polypropylene (PP),Polystyrene (PS) etc.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img height="280px"
+                                            src="https://images.unsplash.com/photo-1571059750558-3d869522f707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+                                        <span class="card-title " style="font-weight:bold;border-top-right-radius: 60px;background: rgba(0,128,128,.7);">Glasses</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">This is a link</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="col s12 m6 l4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img height="280px"
+                                            src="https://images.unsplash.com/photo-1536842409491-b3bbde0e3b66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+                                        <span class="card-title "
+                                            style="font-weight:bold;border-top-right-radius: 60px;background: rgba(0,128,128,.7);">Metals</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Aluminum Can, Used Beverage Can, Steel, Stainless Steel, Thin Cans, Litho
+                                            Plates, Copper, Brass, Metal Furnitures, Vehicles, Generators, Machines ( of
+                                            industries and homes ), Metals, etc.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col s12 m12">
+                                <div class="" style="display: flex; justify-content: center;">
+                                    <p style="font-weight: 500;
+                                    padding-left: 10px; margin: 0;margin-top: 10px;
+                                    border-left: 4px solid #ee6e73;">We buy and sell paper,
+                                        plastics, and much more. If you wonder if we’ll buy
+                                        or sell it, call us at (+977) 98XXXXXXXX.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scrollspy" style="overflow:hidden" id="how_to_steps">
+            <div class="row">
+                <div class="col s12 l10 offset-l1">
+                    <div class="center" style="margin: auto 20px;">
+                        <h4>How it works ?</h4>
+                        <p>Our deep, expansive network combined with our own fleet of trucks and trailers means we can
+                            deliver for our customers every day, on time.</p>
+                    </div>
+                    <section class="timeline">
+                        <ul>
+                            <li>
+                                <div style="display: flex;flex-direction: column; align-items: center ;">
+                                    <time class="timeline_indicator">1</time>
+                                    Collect your trash
+                                </div>
+                            </li>
+                            <li>
+                                <div style="display: flex;flex-direction: column; align-items: center ;">
+                                    <time class="timeline_indicator">2</time>
+                                    Register for the Pick up order at your time and date
+                                </div>
+                            </li>
+                            <li>
+                                <div style="display: flex;flex-direction: column; align-items: center ;">
+                                    <time class="timeline_indicator">3</time>
+                                    We Collect your trash and get paid
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="scrollspy " id="our_products">
+            <div class="row ">
+                <div class="col s12  center">
+                    <h4>Our Productions</h4>
+                </div>
+                <div class="col s12 l8 offset-l2">
+                    <img class="responsive-img" src="https://onme724.github.io/Projects/Sushila%20Recycle/assets/How%20We%20Works.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="" id="what_we_do">
+            <div class="row">
+                <div class="col s12 m6 offset-m3 center">
+                    <div class="divider" style="margin:40px"></div>
+                    <h4>What we do?</h4>
+                    <p>
+                        We handle paper, plastic, and metal recycling, and help our clients build sustainable waste
+                        reduction
+                        processes
+                        within their business. We are also a major supplier and buyer. Our knowledgeable team
+                        helps
+                        companies from door-to-door achieve their goals through custom solutions.</p>
+                    <div class="divider" style="margin:20px"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <style>
+            #gallery .item img {
+                height: 250px;
+                border-radius: 5px;
+                border: 2px solid rgba(0, 0, 0, .5);
+            }
+        </style>
+        <div class="scrollspy" id="gallery">
+            <div class="row">
+                <div class="col s12 m8 offset-m2 center">
+                    <h4>Gallery</h4>
+                    <p style="margin: 0;">We have powerful and more efficent machines to recycle plastic. To come closer
+                        to a solution to the plastic waste problem.</p>
+                </div>
+            </div>
+            <div class="row ">
+                <!-- <div class="" style="display: flex; justify-content: center; flex-wrap: wrap;"> -->
+                <div class="col s12 m8 offset-m2 ">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a class=""
+                                href="https://5.imimg.com/data5/HP/YL/MY-3809499/waste-paper-recycle-machine-500x500.jpeg"
+                                data-lightbox="machine_gallery"><img class="responsive-img"
+                                    src="https://5.imimg.com/data5/HP/YL/MY-3809499/waste-paper-recycle-machine-500x500.jpeg"
+                                    alt=""> </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://www.bezner.com/wp-content/uploads/2017/07/PET-Recycling-Plant-2-580x330.jpg"
+                                data-lightbox="machine_gallery"><img class="responsive-img"
+                                    src="https://www.bezner.com/wp-content/uploads/2017/07/PET-Recycling-Plant-2-580x330.jpg"
+                                    alt=""> </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://static.wixstatic.com/media/18a7f8_04be68bc81c44c0681142515140d98e2~mv2.jpg/v1/fill/w_605,h_454,al_c,lg_1,q_80/18a7f8_04be68bc81c44c0681142515140d98e2~mv2.webp"
+                                data-lightbox="machine_gallery"><img class="responsive-img"
+                                    src="https://static.wixstatic.com/media/18a7f8_04be68bc81c44c0681142515140d98e2~mv2.jpg/v1/fill/w_605,h_454,al_c,lg_1,q_80/18a7f8_04be68bc81c44c0681142515140d98e2~mv2.webp"
+                                    alt=""> </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://www.bezner.com/wp-content/uploads/2017/07/plastic-recycling-plant-580x330.jpg"
+                                data-lightbox="machine_gallery"><img class="responsive-img"
+                                    src="https://www.bezner.com/wp-content/uploads/2017/07/plastic-recycling-plant-580x330.jpg"
+                                    alt=""> </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scrollspy " id="donations">
+            <div class="row">
+                <div class="col 12 m10 offset-m1 center card-panel green lighten-1 white-text">
+                    <h4>Donations</h4>
+                    <p>All the donations that are donated in our organization will be used for making new products and
+                        all the profits will be given to the needly people. It can be ashram or .. and other
+                        organizations that are running for the development of the country and helping the needly people.
+                    </p>
+                    <div class="btn btn-small waves-effect red" style="font-weight: bold;margin-bottom: 20px;">Donate
+                        now</div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            #feedback input::placeholder {
+                color: rgb(0, 100, 100)
+            }
+
+            #feedback .emoji:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+                transition: .3s;
+            }
+        </style>
+        <div class="" id="feedback">
+            <div class="row">
+                <div class="col s12 m8 offset-m2">
+                    <div class="card-panel center grey lighten-3">
+                        <h4><i class="material-icons" style="margin-right: 10px;">feedback</i> Send us some Feedbacks
+                        </h4>
+                        <p>Do you have any Suggestion or any problem while using our services ?</p>
+                        <div class="" style="display: flex;justify-content: center;">
+                            <div class="emoji" style="margin:0 20px;"><img class="responsive-img"
+                                    src="./assets/images/feedback1.png" alt="" srcset=""></div>
+                            <div class="emoji" style="margin:0 20px;"><img class="responsive-img"
+                                    src="./assets/images/feedback2.png" alt="" srcset=""></div>
+                            <div class="emoji" style="margin:0 20px;"><img class="responsive-img"
+                                    src="./assets/images/feedback3.png" alt="" srcset=""></div>
+                        </div>
+                        <div class="" style="margin-top: 20px;">
+                            <div class="row">
+                                <div class="col s12 l6 offset-l3">
+                                    <input type="text"
+                                        style="border: 1px solid rgba(0,128,128,.7);padding: 10px 20px;box-sizing: border-box;"
+                                        placeholder="Write your feedback.. . .">
+                                </div>
+                                <div class="col s12 l6 offset-l3">
+                                    <button class="btn waves-effect"
+                                        style="width: 100%;height: 100%;box-sizing: border-box;">Send Feedback</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="parallax-container" style="height: 220px;background:rgba(0,100,100,.5);color: white;font-weight: bold;">
+            <div class="center">
+                <div class="" style="display: flex;justify-content: center;">
+                    <img class="responsive-img" style="width: 100px;height:100px;margin-top: 10px; border-radius: 50%;"
+                        src="http://www.classywish.com/wp-content/uploads/2019/01/reduce-reuse-recycle-640x581.jpg"
+                        alt="">
+                </div>
+                <h4>Change Yourself, Start Recycling</h4>
+                <p>The Earth is what we all have in common.</p>
+
+            </div>
+
+            <div class="parallax" style="opacity: .2;"><img
+                    src="https://images.unsplash.com/photo-1559060472-b08c4724c934?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=667&amp;q=80"
+                    style="opacity: 1; transform: translate3d(-50%, 118.316px, 0px);"></div>
+        </div>
+
+        <div class="scrollspy" id="about_us">
+            <footer class="page-footer teal">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="white-text">About us</h5>
+                            <p class="grey-text text-lighten-4">
+                            <div class="">logo</div>
+                            <div class="">Pokhara, kaski-2, Nepal</div>
+                            <div class="" style="padding:20px">
+                                <div class="">Questions ?</div>
+                                <div class="">Call +977-98XXXXXXXX or Contact US</div>
+                            </div>
+                            </p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Services</h5>
+                            <ul>
+                                <li><a class="grey-text text-lighten-3" href="#!" style="font-weight: bold;">
+                                    </a>
+                                    <ul style="padding-left: 20px;">
+                                        <li>Paper Recycling</li>
+                                        <li>Plastic Recycling</li>
+                                        <li>Metals Recycling</li>
+                                    </ul>
+                                </li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        © 2020 Copyright
+                        <a class="grey-text text-lighten-4 right" href="#!">www.sushilarecycling.com</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- timeline js -->
+    <script src="./assets/scripts/timeline.js"></script>
+    <!-- lightbox -->
+    <script src="./assets/scripts/lightbox.js"></script>
+    <!-- slick -->
+    <script src="./assets/scripts/owl.carousel.js"></script>
+</body>
+
+</html>
+
+<script>
+
+    $(document).ready(function () {
+        //  $('#we_buy .card-content').css("height", $("#we_buy .card-content:first").outerHeight() + 'px')
+        $('.sidenav').sidenav()
+        $('.scrollspy').scrollSpy({
+            scrollOffset: 80,
+        })
+        $('.datepicker').datepicker({
+            format: 'ddd , dd-mmm-yyyy',
+            autoClose: true
+        })
+        $('.timepicker').timepicker()
+        $('.parallax').parallax()
+
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'fitImagesInViewport': true
+        })
+
+        $('.owl-carousel').owlCarousel({
+            center: true,
+            items: 2,
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 1,
+                },
+                1000: {
+                    items: 2,
+                }
+            }
+
+
+        })
+    });
+
+
+</script>
